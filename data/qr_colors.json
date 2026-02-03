@@ -1,0 +1,198 @@
+{
+    "colors": {
+        "black": "#000000",
+        "red": "#FF0000",
+        "darkred": "#8B0000",
+        "crimson": "#DC143C",
+        "firebrick": "#B22222",
+        "tomato": "#FF6347",
+        "indianred": "#CD5C5C",
+        "lightcoral": "#F08080",
+        "salmon": "#FA8072",
+        "darksalmon": "#E9967A",
+        "lightsalmon": "#FFA07A",
+        "blue": "#0000FF",
+        "royalblue": "#4169E1",
+        "dodgerblue": "#1E90FF",
+        "skyblue": "#87CEEB",
+        "deepskyblue": "#00BFFF",
+        "lightskyblue": "#87CEFA",
+        "steelblue": "#4682B4",
+        "lightsteelblue": "#B0C4DE",
+        "navy": "#000080",
+        "midnightblue": "#191970",
+        "green": "#008000",
+        "lime": "#00FF00",
+        "darkgreen": "#006400",
+        "forestgreen": "#228B22",
+        "seagreen": "#2E8B57",
+        "mediumseagreen": "#3CB371",
+        "lightseagreen": "#20B2AA",
+        "olive": "#808000",
+        "olivedrab": "#6B8E23",
+        "yellowgreen": "#9ACD32",
+        "yellow": "#FFFF00",
+        "gold": "#FFD700",
+        "lightyellow": "#FFFFE0",
+        "khaki": "#F0E68C",
+        "darkkhaki": "#BDB76B",
+        "orange": "#FFA500",
+        "darkorange": "#FF8C00",
+        "orangered": "#FF4500",
+        "amber": "#FFBF00",
+        "moccasin": "#FFE4B5",
+        "purple": "#800080",
+        "indigo": "#4B0082",
+        "violet": "#EE82EE",
+        "plum": "#DDA0DD",
+        "orchid": "#DA70D6",
+        "mediumpurple": "#9370DB",
+        "blueviolet": "#8A2BE2",
+        "darkviolet": "#9400D3",
+        "darkmagenta": "#8B008B",
+        "fuchsia": "#FF00FF",
+        "pink": "#FFC0CB",
+        "lightpink": "#FFB6C1",
+        "hotpink": "#FF69B4",
+        "deeppink": "#FF1493",
+        "palevioletred": "#DB7093",
+        "dimgray": "#696969",
+        "gray": "#808080",
+        "darkgray": "#A9A9A9",
+        "lightgray": "#D3D3D3",
+        "white": "#FFFFFF",
+        "snow": "#FFFAFA",
+        "ivory": "#FFFFF0",
+        "beige": "#F5F5DC",
+        "wheat": "#F5DEB3",
+        "brown": "#A52A2A",
+        "saddlebrown": "#8B4513",
+        "chocolate": "#D2691E",
+        "peru": "#CD853F",
+        "tan": "#D2B48C",
+        "teal": "#008080",
+        "cyan": "#00FFFF",
+        "darkcyan": "#008B8B",
+        "turquoise": "#40E0D0",
+        "mediumturquoise": "#48D1CC",
+        "paleturquoise": "#AFEEEE",
+        "aquamarine": "#7FFFD4",
+        "mediumaquamarine": "#66CDAA",
+        "coral": "#FF7F50",
+        "peachpuff": "#FFDAB9",
+        "slateblue": "#6A5ACD",
+        "mediumslateblue": "#7B68EE",
+        "darkslateblue": "#483D8B",
+        "slategray": "#708090",
+        "lightslategray": "#778899",
+        "darkslategray": "#2F4F4F",
+        "chartreuse": "#7FFF00",
+        "lawngreen": "#7CFC00",
+        "springgreen": "#00FF7F",
+        "mediumspringgreen": "#00FA9A",
+        "mintcream": "#F5FFFA",
+        "honeydew": "#F0FFF0",
+        "aliceblue": "#F0F8FF",
+        "ghostwhite": "#F8F8FF",
+        "floralwhite": "#FFFAF0",
+        "oldlace": "#FDF5E6",
+        "seashell": "#FFF5EE",
+        "lavender": "#E6E6FA",
+        "lavenderblush": "#FFF0F5",
+        "mistyrose": "#FFE4E1"
+    },
+    "gradients": {
+        "sunset": [
+            "#FF512F",
+            "#DD2476"
+        ],
+        "ocean": [
+            "#2193b0",
+            "#6dd5ed"
+        ],
+        "forest": [
+            "#134E5E",
+            "#71B280"
+        ],
+        "purple_love": [
+            "#cc2b5e",
+            "#753a88"
+        ],
+        "fire": [
+            "#f12711",
+            "#f5af19"
+        ],
+        "sky": [
+            "#00c6ff",
+            "#0072ff"
+        ],
+        "royal": [
+            "#141E30",
+            "#243B55"
+        ],
+        "bal": [
+            "#FF512F",
+            "#DD2476"
+        ],
+        "cyber_wave": [
+            "#0575E6",
+            "#021B79"
+        ],
+        "neon_dream": [
+            "#00F2FE",
+            "#4FACFE"
+        ],
+        "deep_ocean": [
+            "#2193B0",
+            "#6DD5ED"
+        ],
+        "electric_violet": [
+            "#833AB4",
+            "#FD1D1D"
+        ],
+        "sunset_vibes": [
+            "#FF8C00",
+            "#F83600"
+        ],
+        "mango_punch": [
+            "#FFAFBD",
+            "#FFC3A0"
+        ],
+        "lush_forest": [
+            "#11998E",
+            "#38EF7D"
+        ],
+        "sea_foam": [
+            "#43C6AC",
+            "#191654"
+        ],
+        "aurora": [
+            "#00C6FF",
+            "#0072FF"
+        ],
+        "royal_purple": [
+            "#8E2DE2",
+            "#4A00E0"
+        ],
+        "golden_hour": [
+            "#FDC830",
+            "#F37335"
+        ],
+        "midnight_gold": [
+            "#141E30",
+            "#243B55"
+        ],
+        "cotton_candy": [
+            "#EE9CA7",
+            "#FFDDE1"
+        ],
+        "lavender_sky": [
+            "#7F7FD5",
+            "#86A8E7"
+        ],
+        "peach_mist": [
+            "#ED4264",
+            "#FFEDBC"
+        ]
+    }
+}
