@@ -1,0 +1,10 @@
+{
+  "tools_message": "🛠 <b>Select a Tool (Default)</b>\n\nHere are the tools currently available:",
+  "tools_buttons": [
+    {"text": "🚀 Speed Test", "callback_data": "tool_speed"},
+    {"text": "🔗 Url Shortener", "callback_data": "tool_url"},
+    {"text": "📥 Downloader", "callback_data": "tool_dl"},
+    {"text": "🎨 Image Editor", "callback_data": "tool_img"},
+    {"text": "🌤 Weather", "callback_data": "tool_weather"}
+  ]
+}
