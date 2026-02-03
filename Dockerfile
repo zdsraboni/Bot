@@ -1,8 +1,10 @@
 # 1. Use Python 3.10 slim as base
 FROM python:3.10-slim
 
+# আউটপুট বাফারিং বন্ধ করা (লগ সাথে সাথে দেখার জন্য)
+ENV PYTHONUNBUFFERED=1
+
 # 2. Install system-level dependencies
-# Added libmagic1 and ffmpeg which are required for media processing
 RUN apt-get update && apt-get install -y \
     ffmpeg \
     git \
@@ -14,19 +16,22 @@ RUN apt-get update && apt-get install -y \
 # 3. Set working directory
 WORKDIR /app
 
-# 4. Copy and install Python dependencies
+# 4. Copy requirements file FIRST
 COPY requirements.txt .
 
-# Upgrade pip and install requirements
+# 5. Force Install Dependencies (Cache Breaking)
+# --force-reinstall ফ্ল্যাগ ব্যবহার করা হয়েছে যাতে সে ক্যাশ ব্যবহার না করে নতুন করে নামায়
 RUN pip install --no-cache-dir --upgrade pip && \
-    pip install --no-cache-dir -r requirements.txt
+    pip install --no-cache-dir --force-reinstall -r requirements.txt
 
-# 5. Copy the rest of your project files
+# 6. DEBUG: বিল্ড লগে চেক করা যে Telethon আসলে ইনস্টল হয়েছে কি না
+RUN pip list | grep telethon || echo "❌ Telethon NOT installed!"
+
+# 7. Copy the rest of your project files
 COPY . .
 
-# 6. CRITICAL: Force moviepy/imageio to use the system FFmpeg
-# This removes the "Warning: imageio-ffmpeg not installed" message
+# 8. Set FFmpeg path
 ENV IMAGEIO_FFMPEG_EXE=/usr/bin/ffmpeg
 
-# 7. Start the bot
+# 9. Start the bot
 CMD ["python", "main.py"]
